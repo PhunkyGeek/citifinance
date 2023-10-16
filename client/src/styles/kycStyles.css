@@ -1,0 +1,6 @@
+@media only screen and (max-width: 768px) {
+    .modal-dialog-responsive {
+      max-width: 100%; /* You can adjust this value as needed */
+      margin: 1.75rem auto; /* Center the modal on the screen */
+    }
+  }

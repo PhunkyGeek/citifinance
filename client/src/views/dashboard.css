@@ -1,0 +1,322 @@
+/* dashboard.css */
+
+/* Add your custom styles here */
+
+/* Center the icons in the card */
+.icon-big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the card stats */
+  .card-stats {
+    margin-bottom: 15px;
+  }
+  
+  /* Style the numbers in the card */
+  .numbers {
+    text-align: right;
+  }
+  
+  /* Style the chart containers */
+  .ct-chart {
+    max-width: 100%;
+    margin: 0 auto;
+    height: 180px;
+  }
+
+  .card-row {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  .card-act {
+    max-width: 100%;
+    margin-top: 25px;
+    height: 490px;
+  }
+
+  @media (max-width: 768px) {
+    .card-act {
+      max-width: 100%;
+      margin-top: 25px;
+      height: 420px;
+    }
+  }
+
+  .button-group {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  @media (max-width: 1024px) and (min-width: 768px) {
+  .button-group {
+    max-width: 90%;
+    margin-top: 10px;
+  }
+}
+
+  .card-head {
+    max-width: 100%;
+    margin-top: 20px;
+    background-color: #821a1b;
+    color: #fff;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .mr-1 {
+    max-width: 100%;
+    margin-right: 10px;
+  }
+
+  .ml-1 {
+    max-width: 100%;
+    margin-right: 10px;
+    margin-bottom: 3px;
+  }
+
+  .ct-perfect-fourth {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #821a1b;
+  }
+  
+  /* Adjust the size of the chart based on the screen width */
+  @media (max-width: 768px) {
+    .ct-chart {
+      height: 200px;
+    }
+  }
+  
+  /* Style the pie chart container */
+  .ct-perfect-fourth {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Style the task table */
+  .card-tasks {
+    margin-top: 30px;
+  }
+
+  .user-greeting {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+
+  .dashrow {
+    --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0.5rem;
+    margin: 10px;
+    padding-right: 20px;
+  }
+
+  .stats:hover {
+    cursor: pointer;
+  }
+  
+  
+  /* Style the task table on small screens */
+  @media (max-width: 768px) {
+    .card-tasks {
+      margin-top: 15px;
+    }
+  }
+  
+  /* Style the table rows */
+  .table-full-width tbody tr td {
+    padding: 12px 8px;
+    font-size: 15px;
+  }
+  
+  /* Add this CSS in your dashboard.css or a separate CSS file */
+
+/* Custom styles for beautiful bars */
+.beautiful-bar-chart .ct-series .ct-bar {
+  stroke-width: 30px;
+  stroke: #821a1b;
+}
+
+.beautiful-bar-chart .ct-series .ct-bar:nth-child(2n) {
+  stroke: #1abc9c;
+}
+
+.beautiful-bar-chart .ct-series .ct-bar:hover {
+  stroke-width: 35px;
+}
+
+
+  /* Style the table header on small screens */
+  @media (max-width: 768px) {
+    .table-full-width thead tr th {
+      padding-bottom: 10px;
+    }
+  }
+  
+  /* Add more custom styles as needed */
+
+
+/* dashboard.css */
+
+.card-stats .numbers {
+  text-align: right;
+  margin-left: -70px;
+}
+
+.card-stats .card-category {
+  color: #999;
+  font-size: 13px;
+}
+
+.card-stats .card-title {
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.card-stats .card-footer {
+  /* padding: 0.9375rem 1.875rem; */
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.card-stats .stats {
+  color: #999;
+  justify-content: center;
+  padding-left: 0px;
+}
+
+.card-tasks .form-check-label .form-check-input {
+  position: absolute;
+  opacity: 0;
+}
+
+.card-tasks .form-check-label .form-check-sign {
+  left: 0;
+}
+
+.card-tasks .td-actions {
+  text-align: right;
+}
+
+.card-tasks .td-actions .btn-simple {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.card-tasks .td-actions .btn-simple i {
+  padding: 0;
+}
+
+/* Apply color #821a1b to specific cards */
+.card-stats.card-color-821a1b {
+  background-color: #821a1b;
+  color: #fff;
+}
+
+.card-stats.card-color-821a1b .icon-big i {
+  color: #fff;
+}
+
+.card-stats.card-color-821a1b .numbers {
+  color: #fff;
+}
+
+.card-tasks.card-color-821a1b {
+  background-color: #821a1b;
+  color: #fff;
+}
+
+.card-tasks.card-color-821a1b .card-header {
+  background-color: #821a1b;
+  color: #fff;
+}
+
+.card-tasks.card-color-821a1b .card-title {
+  color: #fff;
+}
+
+.card-tasks.card-color-821a1b .card-category {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.card-tasks.card-color-821a1b .td-actions .btn-simple i {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* dashboard.css */
+
+/* ... (Previous styles) */
+
+.virtual-card-body {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #821a1b;
+  color: white;
+  border-radius: 10px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+@media (max-width: 768px) {
+  .virtual-card-body {
+    margin: 20px;
+  }
+}
+
+.virtual-card-logo {
+  background-color: #1abc9c;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.virtual-card-info {
+  flex-grow: 1;
+}
+
+.virtual-card-number {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.virtual-card-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.virtual-card-validity {
+  font-size: 12px;
+}
+
+.virtual-card-expiry {
+  font-size: 16px;
+}
+
+.virtual-card-owner {
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+/* .far {
+  margin-right: 10px;
+} */
+
+.virtual-card-footer {
+  background-color: rgb(241, 241, 241);
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+

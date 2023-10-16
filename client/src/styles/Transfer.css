@@ -1,0 +1,92 @@
+.bgh{
+    /* background-image: url("../assets/mloan.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: black;
+    height: 80vh;
+    display: grid;
+    opacity: 1;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 50px;
+}
+
+.bghloan{
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/15/00/21/girl-2067378_1280.jpg");
+    background-size: cover;
+    width: 100%;
+    color: white;
+    height: 126vh;
+    text-align: left;
+    padding-left: 2em;
+}
+
+.transfer-title {
+    color: #821a1b;
+    position: center;
+    bottom: 0.6rem;
+    size: 5em;
+    font-weight: bolder;
+    align-content: center;
+}
+
+.transfer-heading {
+    /* padding-left: 150px; */
+    size: 5em;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.loanform{
+    width:50%;
+    margin-top: 1em;
+}
+
+.bgh h1{
+    padding-top: 0.5em;
+}
+
+.bghloan h2{
+    padding-top: 0.5em;
+}
+
+.leftc{
+    position: relative;
+    bottom: 30px;
+    padding: 15%;
+}
+
+.rightco img{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    height: 50%;
+    padding-top: 50px;
+    z-index: 0;
+}
+
+@media screen and (max-width: 768px){
+    .bgh{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .loanform{
+        width: 100%;
+        padding-right: 2em;
+    }
+
+    .rightco{
+        display: none;
+    }
+
+    .leftc{
+        padding: 8%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .rightco{
+        display: none;
+    }
+}

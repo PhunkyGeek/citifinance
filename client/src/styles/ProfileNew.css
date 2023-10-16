@@ -1,0 +1,77 @@
+.gridpf{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image{
+    border-radius: 50% ;
+}
+
+.mt-4 {
+    background-color: gray;
+    color: black;
+}
+
+.my-4 {
+    color: black;
+}
+
+.display-4 {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.display-3 {
+  color: #821a1b;
+  font-size: 30px;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .display-4 {
+    color: black;
+    margin-left: -210px;
+    text-align: left;
+    font-size: 20px;
+}
+}
+
+.c2 {
+    color: black;
+}
+
+.profile-info {
+    color: black;
+}
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    /* Reduce the size of the profile picture for smaller screens */
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+    }
+    .display-4 {
+        color: black;
+        margin-left: 20px;
+    }
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  /* Add a border and transition effect when hovering over the profile picture */
+  .profile-pic:hover {
+    border: 2px solid #821a1b;
+    transition: border 0.3s ease-in-out;
+  }
+  

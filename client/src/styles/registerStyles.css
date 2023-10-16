@@ -1,0 +1,61 @@
+/* Apply border radius to all input fields */
+.form-control {
+    border-radius: 10px;
+  }
+
+.form-dob {
+    margin-bottom: 50px;
+    font-size: 15px;
+    width: 560px;
+    padding-left: 13px;
+  }
+
+h1 {
+  font-size: 40px;
+  color: #821a1b;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+h1 {
+    font-size: 25px;
+  }
+
+  .modal-dialog-responsive {
+    max-width: 100%; /* You can adjust this value as needed */
+    margin: 1.75rem auto; /* Center the modal on the screen */
+  }
+
+.form-dob {
+    margin-bottom: 50px;
+    font-size: 15px;
+    width: 180px;
+    padding-left: 13px;
+  }
+
+  .loglink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .login {
+    margin-left: 5px;
+    margin-top: -5px;
+  }
+}
+
+/* registerStyles.css */
+.loglink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.login {
+  margin-left: 5px;
+}
