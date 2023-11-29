@@ -59,7 +59,7 @@ npm i
 
 The Home page
 
-![App Screenshot](https://github.com/PhunkyGeek/citibank/client/src/assets/Home.jpeg)
+![App Screenshot](https://github.com/ParthShirole/THF-Bank/blob/main/client/src/assets/Home.jpeg)
 
 Register
 
@@ -68,10 +68,6 @@ Register
 Login
 
 ![App Screenshot](https://github.com/ParthShirole/THF-Bank/blob/main/client/src/assets/Login.jpg)
-
-Profile
-
-![App Screenshot](https://github.com/ParthShirole/THF-Bank/blob/main/client/src/assets/Profile.jpg)
 
 Transfer
 
