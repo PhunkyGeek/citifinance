@@ -55,7 +55,7 @@ npm i
  - Applying for loans
  - Verifying user via OTP
 
-## 📸Screenshots
+<!-- ## 📸Screenshots
 
 The Home page
 
@@ -71,7 +71,7 @@ Login
 
 Transfer
 
-![App Screenshot](https://github.com/ParthShirole/THF-Bank/blob/main/client/src/assets/Transfer.jpg)
+![App Screenshot](https://github.com/ParthShirole/THF-Bank/blob/main/client/src/assets/Transfer.jpg) -->
 
 
 ## 🧑‍💻Team members
